@@ -1,6 +1,5 @@
 import { inject, injectable } from 'tsyringe';
 
-// import User from '../infra/typeorm/entities/User';
 import AppError from '@shared/errors/AppError';
 
 import IMailProvider from '@shared/container/providers/MailProvider/models/IMailProvider';
