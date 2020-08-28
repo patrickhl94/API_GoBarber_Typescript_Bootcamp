@@ -25,14 +25,14 @@ export default class CreateUserTokensh1598539972748
             type: 'uuid',
           },
           {
-            name: 'updated_at',
+            name: 'created_at',
             type: 'timestamp',
             default: 'now()',
           },
           {
-            name: 'password',
-            type: 'varchar',
-            isNullable: false,
+            name: 'updated_at',
+            type: 'timestamp',
+            default: 'now()',
           },
         ],
         foreignKeys: [
